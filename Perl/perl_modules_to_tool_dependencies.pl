@@ -8,7 +8,7 @@ if(! defined($package_name)){
     die "Please invoke with the command: \n\n\tperl $0 My::Module::Name;\n\n";
 }
 
-my @deps = CPAN::FindDependencies::finddeps($package_name);
+my @deps = CPAN::FindDependencies::finddeps($package_name, perl=>"5.18.1");
 # Reverse ordering by depth, and mapped to the distribution url
 my @ordered_deps = map {$_->distribution() } sort {$b->depth <=> $a->depth} @deps;
 
