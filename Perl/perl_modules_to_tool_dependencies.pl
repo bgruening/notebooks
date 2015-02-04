@@ -5,7 +5,7 @@ use CPAN::FindDependencies;
 
 my $package_name = $ARGV[0];
 if(! defined($package_name)){
-    die "Must provide package name in command";
+    die "Please invoke with the command: \n\n\tperl $0 My::Module::Name;\n\n";
 }
 
 my @deps = CPAN::FindDependencies::finddeps($package_name);
