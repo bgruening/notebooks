@@ -36,7 +36,7 @@ my $template = <<"EOL";
 </tool_dependency>
 EOL
 
-my $package_deps = join("\n", map{ " " x 20 . "<package>" . $_ . "</package>"} @ordered_deps );
+my $package_deps = join("\n", map{ " " x 20 . "<package>http://www.cpan.org/authors/id/" . $_ . "</package>"} @ordered_deps );
 
 # Construct package name from passed value
 my $package_pkgname = sprintf("package_%s", lc($package_name));
