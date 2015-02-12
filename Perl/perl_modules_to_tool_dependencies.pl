@@ -8,7 +8,7 @@ if(! defined($package_name)){
     die "Please invoke with the command: \n\n\tperl $0 My::Module::Name;\n\n";
 }
 
-my @deps = CPAN::FindDependencies::finddeps($package_name);
+my @deps = CPAN::FindDependencies::finddeps($package_name, perl=>"5.18.1");
 # Reverse ordering by depth, and mapped to the distribution url
 my @ordered_deps = map {$_->distribution() } sort {$b->depth <=> $a->depth} @deps;
 
@@ -36,10 +36,10 @@ my $template = <<"EOL";
 </tool_dependency>
 EOL
 
-my $package_deps = join("\n", map{ " " x 20 . "<package>" . $_ . "</package>"} @ordered_deps );
+my $package_deps = join("\n", map{ " " x 20 . "<package>http://www.cpan.org/authors/id/" . $_ . "</package>"} @ordered_deps );
 
 # Construct package name from passed value
-my $package_pkgname = sprintf("package_%s", lc($package_name));
+my $package_pkgname = sprintf("perl_%s", lc($package_name));
 $package_pkgname =~ s/::/_/g;
 
 # splits P/PE/PEVANS/Scalar-List-Utils-1.41.tar.gz
