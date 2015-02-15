@@ -15,7 +15,9 @@ Feel free to contribute with [Issues](https://github.com/bgruening/notebooks/iss
 * [Extract all dependencies from a given Perl package V1](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Perl/perl_package_to_galaxy_tool_dependency_v2.ipynb)
 * [Extract all dependencies from a given Perl package V2](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Perl/perl_package_to_galaxy_tool_dependency.ipynb)
 
-
+## Authors
+* [Eric Rasche](https://github.com/erasche)
+* [Björn Grüning](https://github.com/bgruening)
 
 
 ## License
