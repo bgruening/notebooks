@@ -19,7 +19,7 @@ Feel free to contribute with [Issues](https://github.com/bgruening/notebooks/iss
 ## Extras
 
 * [Query the DAVID webservice and plot Gene Ontology classifications](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Python/DAVID-Webservice.ipynb)
-
+* [Sahimi Plot with misopy](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Python/sashimi_plot.ipynb)
 
 ## Authors
 * [Eric Rasche](https://github.com/erasche)
