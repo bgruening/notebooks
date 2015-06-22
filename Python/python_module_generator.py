@@ -39,8 +39,7 @@ interesting_release = [pypi_file for pypi_file in pypi_file_list if pypi_file['p
 dependency_list.append('%(url)s#md5=%(md5_digest)s' % interesting_release[0])
 
 
-template = """
-<?xml version="1.0"?>
+template = """<?xml version="1.0"?>
 <tool_dependency>
     <package name="python" version="2.7">
         <repository name="package_python_2_7" owner="iuc" prior_installation_required="True" />
