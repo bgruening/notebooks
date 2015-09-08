@@ -1,0 +1,204 @@
+accessibility: Public
+canonicalID: token
+collection:
+- Name of some collection
+- Name of some collection
+contact:
+-   contactEmail: FredBloggs@gmail.com
+    contactName: Fred Bloggs
+    contactRole:
+    - Scientific
+    - Developer
+    contactTel: String
+    contactURL: http://someURL.org
+-   contactEmail: FredBloggs@gmail.com
+    contactName: Fred Bloggs
+    contactRole:
+    - Helpdesk
+    - Scientific
+    contactTel: String
+    contactURL: http://someURL.org
+cost: Free
+credits:
+    creditsContributor:
+    - Judi Bloggs
+    - Judi Bloggs
+    - Judi Bloggs
+    - Judi Bloggs
+    creditsDeveloper:
+    - Joe Bloggs
+    - Joe Bloggs
+    - Joe Bloggs
+    - Joe Bloggs
+    creditsFunding:
+    - 'Grant number: 12345'
+    - 'Grant number: 12345'
+    - 'Grant number: 12345'
+    - 'Grant number: 12345'
+    creditsInfrastructure:
+    - Infrastructure name
+    - Infrastructure name
+    - Infrastructure name
+    - Infrastructure name
+    creditsInstitution:
+    - Institute name
+    - Institute name
+    - Institute name
+    - Institute name
+description: Description of resource goes here.
+docs:
+    docsCitationInstructions: http://toolname.org/docs/citing
+    docsDownload: http://toolname.org/downloads
+    docsHome: http://toolname.org/docs
+    docsTermsOfUse: http://toolname.org/docs/terms
+elixirInfo:
+    elixirNode: Denmark
+    elixirStatus: ELIXIR Named Service
+function:
+-   functionDescription: Concise description of the function.
+    functionHandle: --someOption
+    functionName:
+    -   term: EDAM Function
+        uri: http://edamontology.org/operation_0004
+    -   term: EDAM Function
+        uri: http://edamontology.org/operation_0004
+    input:
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+    output:
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+-   functionDescription: Concise description of the function.
+    functionHandle: --someOption
+    functionName:
+    -   term: EDAM Function
+        uri: http://edamontology.org/operation_0004
+    -   term: EDAM Function
+        uri: http://edamontology.org/operation_0004
+    input:
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+    output:
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+    -   dataDescription: Concise description of the data.
+        dataFormat:
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        -   term: EDAM format
+            uri: http://edamontology.org/format_1915
+        dataHandle: --someOption
+        dataType:
+            term: EDAM data
+            uri: http://edamontology.org/data_0006
+homepage: http://resourcename.org
+interface:
+-   interfaceDocs: http://someurl.org
+    interfaceSpecFormat: Swagger
+    interfaceSpecURL: http://someurl.org
+    interfaceType: Command line
+-   interfaceDocs: http://someurl.org
+    interfaceSpecFormat: WSDL2
+    interfaceSpecURL: http://someurl.org
+    interfaceType: Command line
+language:
+- Java
+- Java
+license: GNU General Public License v3
+maturity: Young
+mirror:
+- http://someURL.org
+- http://someURL.org
+name: ResourceName
+platform:
+- Linux
+- Linux
+publications:
+    publicationsOtherID:
+    - 10.1006/jmbi.1995.0238
+    - 10.1006/jmbi.1995.0238
+    publicationsPrimaryID: 10.1006/jmbi.1995.0238
+resourceType:
+- Tool
+- Tool
+sourceRegistry: http://sourceregistry.com/toolname
+tag:
+-   term: A free-text tag
+    uri: http
+-   term: A free-text tag
+    uri: http
+topic:
+-   term: EDAM Topic
+    uri: http://edamontology.org/topic_0003
+-   term: EDAM Topic
+    uri: http://edamontology.org/topic_0003
+uses:
+-   usesHomepage: http://someURL.org
+    usesName: Name of some resource
+    usesVersion: Version number of some resource
+-   usesHomepage: http://someURL.org
+    usesName: Name of some resource
+    usesVersion: Version number of some resource
+version: Version 1

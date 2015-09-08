@@ -1,0 +1,17 @@
+!!python/unicode 'contact':
+-   !!python/unicode 'contactEmail': !!python/unicode 'FredBloggs@gmail.com'
+!!python/unicode 'description': !!python/unicode 'Description of resource goes here.'
+!!python/unicode 'function':
+-   !!python/unicode 'functionName':
+    -   !!python/unicode 'term': !!python/unicode 'EDAM Function'
+        !!python/unicode 'uri': !!python/unicode 'http://edamontology.org/operation_0004'
+!!python/unicode 'homepage': !!python/unicode 'http://resourcename.org'
+!!python/unicode 'interface':
+-   !!python/unicode 'interfaceType': !!python/unicode 'Command line'
+!!python/unicode 'name': !!python/unicode 'ResourceName'
+!!python/unicode 'publications':
+    !!python/unicode 'publicationsPrimaryID': !!python/unicode '10.1006/jmbi.1995.0238'
+!!python/unicode 'resourceType': !!python/unicode 'Tool'
+!!python/unicode 'topic':
+-   !!python/unicode 'term': !!python/unicode 'EDAM Topic'
+    !!python/unicode 'uri': !!python/unicode 'http://edamontology.org/topic_0003'
